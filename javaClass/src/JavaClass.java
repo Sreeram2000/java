@@ -20,6 +20,7 @@ public class JavaClass implements ActionListener{
 		textfield.setBounds(50, 25, 300, 50);
 		// textfield.setFont(myFont);
 		textfield.setEditable(false);
+        //to do add panel
     }
 
     public static void main(String args[]) {
