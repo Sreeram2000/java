@@ -21,6 +21,10 @@ public class JavaClass implements ActionListener{
 		// textfield.setFont(myFont);
 		textfield.setEditable(false);
         //to do add panel
+        panel = new JPanel();
+		panel.setBounds(50, 100, 300, 300);
+		panel.setLayout(new GridLayout(4,4,10,10));
+
     }
 
     public static void main(String args[]) {
