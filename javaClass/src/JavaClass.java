@@ -31,9 +31,4 @@ public class JavaClass implements ActionListener{
         // System.out.println("javaProgram");
         JavaClass project = new JavaClass();
     }
-
-    public void actionPerformed(ActionEvent e)
-    {
-
-    }
 }
