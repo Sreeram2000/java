@@ -5,15 +5,19 @@ import java.awt.event.*;
 public class JavaClass implements ActionListener{
 
     JFrame frame;
-    JButton[] button = new JButton[10];
-    JPanel panel;
-    JTextField textfield;
-
-    Font myFont = new Font("Ink Free",Font.BOLD,30);
+	JTextField textfield;
+	JButton[] numberButtons = new JButton[10];
+	JButton[] functionButtons = new JButton[9];
+	JButton addButton,subButton,mulButton,divButton;
+	JButton decButton, equButton, delButton, clrButton, negButton;
+	JPanel panel;
+	
+	Font myFont = new Font("Ink Free",Font.BOLD,30);
 	
 	double num1=0,num2=0,result=0;
 	char operator;
-    
+	
+
     JavaClass()
     {
         frame = new JFrame("Project");
