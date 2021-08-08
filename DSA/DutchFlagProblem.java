@@ -11,7 +11,11 @@ Output: [0,0,1,1,2,2]
 
 */
 
+/* 
 
+Use swapping to reverse,rotate and segregate
+
+*/
 
 public class DutchFlagProblem {
     class Solution {
