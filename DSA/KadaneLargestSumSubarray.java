@@ -1,7 +1,16 @@
-public class KadaneLargestSumSubarray {
-    
 /* 
+Given an array arr of N integers. Find the contiguous sub-array with maximum sum.
 
+Example 1:
+Input:
+N = 5
+arr[] = {1,2,3,-2,5}
+Output:
+9
+*/
+
+public class KadaneLargestSumSubarray {    
+/* 
 1>Kadane's Algorithm is used to solve largest sum in contiguous subarray problem
 2>Two variables are used max_so_far and max_ending 
 3>max_so_far keep a note of max sum yet and max_ending explores through consecutive elements.
@@ -10,9 +19,7 @@ public class KadaneLargestSumSubarray {
 6>if max_ending < 0 it means that the negative elements yet so far out weigh the +ve and 
   therefore the max_ending = 0 => re-initialized
 7> For eg: -1 1 2 -1 => 3 => -1 { 1 2 } -1 
-
 */
-
     class Solution
     {
         int maxSubarraySum(int arr[], int n)
