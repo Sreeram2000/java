@@ -13,24 +13,22 @@ rotate 3 steps to the right: [5,6,7,1,2,3,4]
 
 */
 
-/*
-
-if k>n meaning n elements rotated n times is the same 
-123 rotated 3 times is 123 Therefore k%n gives us remaning rotations.
-
-Reverse upto n-k-1
-Reverse n-k  to n-1
-reverse whole
-12345 k=2 => 32154 => 45123
-
-*/
-
-
 public class RotateArray {
+
+    /*
+
+    1>if k>n meaning n elements rotated n times is the same 
+      123 rotated 3 times is 123 Therefore k%n gives us remaning rotations.
+    2>Reverse upto n-k-1
+    3>Reverse n-k  to n-1
+    3>reverse whole
+    12345 k=2 => 32154 => 45123
+
+    */
+
     class Solution {
         public void reverse(int[] a,int l, int h)
         {
-            // int s = h-l;
             while(l<h)
             {
                 int t = a[l];
