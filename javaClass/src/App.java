@@ -1,4 +1,4 @@
-import javax.swing.*;//Light weight java graphical user interface.
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
