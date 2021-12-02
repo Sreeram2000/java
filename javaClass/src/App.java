@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+//Creating a calculator application using java
 
 public class App implements ActionListener{
 
